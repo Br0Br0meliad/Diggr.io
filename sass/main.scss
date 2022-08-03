@@ -1,0 +1,18 @@
+//custom variables
+$primary: #343436;
+$light: #e1937c;
+$warning: #ca5450;
+$info: #68606d;
+$dark: #32434d;
+$success: #949c9c;
+
+.img-fluid{
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+//import bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
