@@ -9,91 +9,49 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-sm bg-primary navbar-dark fixed-top text-white justify-content-center">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"><img src="assets\diggr.png" style="width: 150px" class="rounded-pill"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#collector">Collector</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="mycrate.html">My Crate</a>
-              </li>  
-            </ul>
-          </div>
-        </div>
-      </nav>
-
-
-    <div class="container-fluid">
-        <div class="row">
-            
-                <img src="/assets/Crate Diggr.png" class="img-fluid">
-    
-        </div>
+  <nav class="navbar bg-light sticky-top fs-4">
+    <div class="container-fluid justify-content-center pb-1 pt-1">
+      <ul class="nav">
+        <li class="nav-item mx-1 bg-success rounded">
+          <a class="nav-link active" aria-current="page" href="#">Info</a>
+        </li>
+        <li class="nav-item mx-1">
+          <a class="nav-link" href="#">Plans & Pricing</a>
+        </li>
+        <li class="nav-item mx-1">
+          <a class="nav-link" href="#">How it works</a>
+        </li>
+      </ul>
     </div>
+  </nav>
 
-    <section id="collector">
+  <div class="card bg-dark text-white">
+    <img src="/assets/Crate Diggr.png" class="card-img" alt="record store" id="parallax">
+    <div class="card-img-overlay text-center align-items-center position-absolute top-50 start-50 translate-middle">
+      <h1 class="display-1">Diggr</h1>
+      <h5 class="display-5">Crate digging is fun.<br> Digging through inventory isn't.</h5>
+      <h6 class="display-6">Take control of your inventory with Diggr.</h6>
+      <button type="button" class="btn btn-light btn-lg shadow-sm"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-boombox" viewBox="0 0 16 16">
+        <path d="M2.5 5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1Zm2 0a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1Zm7.5-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Zm1.5.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1Zm-7-1a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1h-3Zm5.5 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Z"/>
+        <path d="M11.5 13a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Zm0-1a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3ZM5 10.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Z"/>
+        <path d="M7 10.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0Zm-1 0a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0Z"/>
+        <path d="M14 0a.5.5 0 0 1 .5.5V2h.5a1 1 0 0 1 1 1v11a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h12.5V.5A.5.5 0 0 1 14 0ZM1 3v3h14V3H1Zm14 4H1v7h14V7Z"/>
+      </svg> Get Diggr</button>
+    </div>
+  </div>
 
-    <div class="container-fluid bg-dark">
-      <div class="row justify-content-around align-self-center">
-        <div class="col-5 mt-5 mb-5 align-self-center bg-success rounded border-right border-bottom border-primary">
-          <form>
-            <div class="form-group">
-              <label for="exampleInputEmail1">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-            </div>
-            <div class="form-group">
-              <label for="exampleInputPassword1">Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-            </div>
-            <div class="form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Check me out</label>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </form>
-        </div>
-        <div class="col-5 mt-5 mb-5 p-3 align-self-center bg-success rounded border-right border-bottom border-primary">
-          <table class="table table-hover">
-            <thead class="thead-dark">
-              <tr>
-                <th scope="col">#</th>
-                <th scope="col">First</th>
-                <th scope="col">Last</th>
-                <th scope="col">Handle</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
-              </tr>
-              <tr>
-                <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
-              </tr>
-              <tr>
-                <th scope="row">3</th>
-                <td>Larry</td>
-                <td>the Bird</td>
-                <td>@twitter</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-  
-    </section>
+  <div class="container bg-primary">
+    <div class="row">
+      <div class="col">col</div>
+      <div class="col">col</div>
+      <div class="col">col</div>
+      <div class="col">col</div>
+    </div>
+    <div class="row">
+      <div class="col-8">col</div>
+      <div class="col-4">col</div>
+    </div>
+  </div>
 
 
 
