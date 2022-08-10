@@ -77,9 +77,9 @@
     </div>
 
     <div class="row my-5 align-items-center justify-content-center">
-    <table class="table table-warning table-striped-columns">
+    <table class="table table-warning table-striped table-bordered">
      <thead>
-        <tr>
+        <tr class="table-light opacity-75">
          <th scope="col">Features & Benefits</th>
          <th scope="col">Platinum</th>
          <th scope="col">Gold</th>
@@ -88,64 +88,81 @@
         </tr>
      </thead>
      <tbody>
-        <tr>
-          <th scope="row">1</th>
-          <td>Mark</td>
-          <td>Otto</td>
-          <td>@mdo</td>
-        </tr>
-        <tr>
-          <th scope="row">2</th>
-          <td>Jacob</td>
-          <td>Thornton</td>
-          <td>@fat</td>
-        </tr>
-        <tr>
-          <th scope="row">3</th>
-          <td colspan="2">Larry the Bird</td>
-          <td>@twitter</td>
-        </tr>
+      <tr scope="row">
+        <td class="fw-bold">Monthly price</td>
+        <td>$49.99</td>
+        <td>$29.99</td>
+        <td>$19.99</td>
+        <td>Free</td>
+      </tr>
+      <tr scope="row">
+        <td class="fw-bold">Users</td>
+        <td>10</td>
+        <td>5</td>
+        <td>3</td>
+        <td>1</td>
+      </tr>
+      <tr scope="row">
+        <td class="fw-bold">Inventory size</td>
+        <td>5,000</td>
+        <td>2,500</td>
+        <td>1,000</td>
+        <td>500</td>
+      </tr>
+      <tr scope="row">
+        <td class="fw-bold">Online store access</td>
+        <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+          <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+        </svg></td>
+        <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+          <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+        </svg></td>
+        <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+          <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+        </svg></td>
+        <td></td>
+      </tr>
       </tbody>
     </table>
   </div>
 
-
 <!-- Button trigger modal -->
 <div class="container">
-    <div class="text-center">
-    <h3>Don't see anything you like</h3>
-    <p>Hit the button below, fill out your contact information, and we'll tailor make a plan to fit your business.</p>
-    </div>
-    <div class="row justify-content-center">
-        <div class="col text-center">
-            <button type="button" class="btn btn-success mt-3" data-bs-toggle="modal" data-bs-target="#reg-modal">
-            Custom Plan Inquiry
-            </button>
-        </div>
+  <div class="text-center">
+  <h3>Don't see anything you like</h3>
+  <p>Hit the button below, fill out your contact information, and we'll tailor make a plan to fit your business.</p>
+  </div>
+  <div class="row justify-content-center">
+      <div class="col text-center">
+          <button type="button" class="btn btn-success mt-3" data-bs-toggle="modal" data-bs-target="#reg-modal">
+          Custom Plan Inquiry
+          </button>
+      </div>
 
-    </div>
-</div>
-  <!-- Modal -->
-  <div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="model-title">Custom Plan Inquiry</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-           
-                <label for="name" class="form-label">Name</label>
-                <input type="text" class="form-control" id="name" placeholder="First & Last">
- 
-                <label for="emailAddress" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="emailAddress" placeholder="name@example.com">
+  </div>
 
-                <label for="telNum" class="form-label">Phone number</label>
-                <input type="tel" class="form-control" id="telNum" placeholder="(555)-555-5555">
+<!-- Modal -->
+<div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="model-title">Custom Plan Inquiry</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+         <form>  
+        <label for="name" class="form-label">Name</label>
+        <input type="text" class="form-control" id="name" placeholder="First & Last">
 
-                <label for="textArea" class="form-label">Custom inquiry</label>
-                <textarea class="form-control" id="textArea" rows="4"></textarea>
+        <label for="emailAddress" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="emailAddress" placeholder="name@example.com">
+
+        <label for="telNum" class="form-label">Phone number</label>
+        <input type="tel" class="form-control" id="telNum" placeholder="(555)-555-5555">
+
+        <label for="textArea" class="form-label">Custom inquiry</label>
+        <textarea class="form-control" id="textArea" rows="4"></textarea>
+          </form>
 
         </div>
         <div class="modal-footer">
@@ -155,7 +172,16 @@
     </div>
   </div>
 
+
+  <footer class="container-lg bg-info">
+    <div class="row p-5">
+  
+    </div>
+  </footer>
+
 </section>
+
+
 
 
 
