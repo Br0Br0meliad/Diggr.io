@@ -1,2 +1,4 @@
-# Bootstrap-week-9
+Diggr.io
+
+Landing page for non-existant record store inventory management application
  
